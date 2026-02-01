@@ -19,7 +19,7 @@
 }
 
 .footer-section h3 .text-light {
-    color: var(--color-accent-light);
+    color: var(--color-accent);
 }
 
 .footer-bio {
@@ -52,7 +52,7 @@
 }
 
 .footer-section ul a:hover {
-    color: var(--color-accent-light);
+    color: var(--color-accent);
 }
 
 .contact-list li {
@@ -64,7 +64,7 @@
 }
 
 .contact-list svg {
-    color: var(--color-accent-light);
+    color: var(--color-accent);
     flex-shrink: 0;
 }
 
