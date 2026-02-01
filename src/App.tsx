@@ -10,7 +10,7 @@ import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
