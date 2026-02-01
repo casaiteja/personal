@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  /* Premium Light Theme */
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f8fafc;
-  --color-bg-card: #ffffff;
-  --color-bg-card-hover: #f1f5f9;
+  /* ClearTax Inspired Theme */
+  --color-bg: #FFFFFF;
+  --color-bg-secondary: #F6F9FC;
+  --color-bg-card: #FFFFFF;
+  --color-bg-card-hover: #FFFFFF;
 
   /* Text Colors */
-  --color-text: #0f172a;
-  --color-text-secondary: #475569;
-  --color-text-muted: #94a3b8;
+  --color-text: #1A1F36;
+  --color-text-secondary: #4F566B;
+  --color-text-muted: #A3ACB9;
 
-  /* Accent Colors - Professional Blue */
-  --color-accent: #2563eb;
-  --color-accent-light: #60a5fa;
-  --color-accent-dark: #1d4ed8;
+  /* Accent Colors - ClearTax Corporate Blue */
+  --color-accent: #002771;
+  --color-accent-light: #0066FF;
+  --color-accent-dark: #001A4D;
 
-  /* Gradients - More professional & subtle */
-  --gradient-primary: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-  --gradient-glow: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(96, 165, 250, 0.1) 100%);
-  --gradient-text: linear-gradient(135deg, #1e293b 0%, #2563eb 100%);
+  /* Gradients - Professional & Brand Aligned */
+  --gradient-primary: linear-gradient(135deg, #002771 0%, #0066FF 100%);
+  --gradient-glow: rgba(0, 102, 255, 0.1);
+  --gradient-text: linear-gradient(135deg, #002771 0%, #0066FF 100%);
 
   /* Borders */
-  --color-border: #e2e8f0;
-  --color-border-hover: #cbd5e1;
+  --color-border: #E3E8EE;
+  --color-border-hover: #C1C9D2;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.1);
-  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  /* Shadows - ClearTax style extra soft */
+  --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  --shadow-glow: 0 0 20px rgba(0, 102, 255, 0.15);
 
-  /* Radius */
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
-  --radius-xl: 20px;
+  /* Radius - ClearTax uses smaller, more professional radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
   --radius-full: 9999px;
 
   /* Typography */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 * {

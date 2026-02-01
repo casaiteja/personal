@@ -25,39 +25,41 @@
     opacity: 1;
 }
 
-/* Primary - Gradient */
+/* Primary - Corporate Blue */
 .btn-primary {
-    background: var(--gradient-primary);
+    background: var(--color-accent);
     color: white;
-    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+    border-radius: var(--radius-sm);
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    background: var(--color-accent-dark);
 }
 
-/* Secondary - Outlined */
+/* Secondary - Action Blue Outline */
 .btn-secondary {
     background: transparent;
-    color: var(--color-text);
-    border: 1px solid var(--color-border);
+    color: var(--color-accent-light);
+    border: 1px solid var(--color-accent-light);
+    border-radius: var(--radius-sm);
 }
 
 .btn-secondary:hover {
-    background: var(--color-bg-secondary);
-    border-color: var(--color-border-hover);
+    background: rgba(0, 102, 255, 0.04);
+    border-color: var(--color-accent-dark);
 }
 
-/* Outline - Accent Border */
+/* Outline style */
 .btn-outline {
     background: transparent;
-    color: var(--color-accent);
-    border: 1px solid var(--color-accent);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
 }
 
 .btn-outline:hover {
-    background: rgba(37, 99, 235, 0.05);
+    background: var(--color-bg-secondary);
+    color: var(--color-accent);
 }
 
 /* Sizes */
