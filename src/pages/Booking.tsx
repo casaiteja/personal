@@ -1,4 +1,4 @@
-import { Clock, Video, MapPin, Calendar } from 'lucide-react';
+import { Clock, Video, Calendar } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import './Booking.css';
